@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Computer and Social Networking</title>
+
+<div class="logo">
+				<a href="Home.html">
+				<img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+				</a>
+				</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="StyleSheet.css">
+<script type="text/javascript" src="Javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+<h1>Computer and Social Networking</h1>	
+</div>
+
+<div class="navbar">
+  <a href="Home.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Definitions 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Page1.html">Networking and Social Networks</a>
+      <a href="Page2.html">Hardware</a>
+      <a href="Page3.html">Transmission Media</a>
+      <a href="Page4.html">Topologies</a>
+      <a href="Page5.html">Data Processing & Transmission</a>
+      <a href="Page6.html">Network Security</a>
+    </div>
+  </div> 
+  <a href="#casestudy">Case Study</a>
+  <a href="#aboutus">About Us</a>
+  <a href="Timeline.html">Timeline</a>
+</div>
+
+<h2>
+
+</h2>
+
+<button class="collapsible">Malware</button>
+<div class="content">
+  <p>Malware is a trick all term for a noxious programming intended to damage or take advantage of any programmable gadget, administration or organization</p>
+</div>
+<button class="collapsible">Trojans</button>
+<div class="content">
+  <p>A sort of malware that normally gets concealed as a connection in an email or an allowed to-download document, then moves onto the client's gadget.</p>
+</div>
+<button class="collapsible">Social Engineering</button>
+<div class="content">
+  <p>all procedures pointed toward convincing an objective to uncover explicit data or playing out a particular activity for ill-conceived reasons.</p>
+</div>
+<button class="collapsible">A firewall</button>
+<div class="content">
+  <p>A firewall is an organization security gadget that screens approaching and active organization traffic and chooses whether to permit or impede explicit traffic in view of a characterized set of safety rules.</p>
+</div>
+<button class="collapsible">Virtual private networks (VPNs)</button>
+<div class="content">
+  <p>A virtual private network, or VPN, is an encrypted connection over the internet from a device to a network. The encrypted connection helps ensure that sensitive data is safely transmitted. It prevents unauthorised people from eavesdropping on the traffic and allows the user to conduct work remotely.</p>
+</div>
+<button class="collapsible">Encryption</button>
+<div class="content">
+  <p>The most common way of safeguarding data or information is by utilizing numerical models to scramble it so that main gatherings who have the way to unscramble it can get to it.</p>
+</div>
+<button class="collapsible">2FA</button>
+<div class="content">
+  <p>2FA a character and access the executives security strategy that requires two types of distinguishing proof to get to assets and information</p>
+</div>
+ 	
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+</body>
+</html>
+
+
+

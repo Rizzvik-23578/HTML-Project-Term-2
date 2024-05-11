@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Computer and Social Networking</title>
+
+<div class="logo">
+				<a href="Home.html">
+				<img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+				</a>
+				</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="StyleSheet.css">
+<script type="text/javascript" src="Javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+<h1>Computer and Social Networking</h1>	
+</div>
+
+<nav>
+  <div class="navbar">
+      <div class="logo">
+          <a href="Home.html">
+
+              <img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+              </a>
+
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><a href="Home.html">Home</a>
+          </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Definitions
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="Page1.html">Networking and Social Networks</a>
+              <a href="Page2.html">Hardware</a>
+              <a href="Page3.html">Transmission Media</a>
+              <a href="Page4.html">Topologies</a>
+              <a href="Page5.html">Data Processing & Transmission</a>
+              <a href="Page6.html">Network Security</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="Timeline.html">Timeline</a>
+          </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="#aboutus">About Us</a>
+          </button>
+      </div>
+    </div>
+</nav>
+
+<h2>
+
+</h2>
+
+<button class="collapsible">Node</button>
+<div class="content">
+  <p>A physical or virtual gadget that can connect to your computer.</p>
+</div>
+<button class="collapsible">Hub/Smart Hub</button>
+<div class="content">
+  <p>A hardware component that allows several devices or connections to connect to a computer.</p>
+</div>
+<button class="collapsible">Router</button>
+<div class="content">
+  <p>A device for connecting two or more packet-switched networks.</p>
+</div>
+<button class="collapsible">Switch</button>
+<div class="content">
+  <p>A piece of networking gear that connects several devices on a network.</p>
+</div>
+<button class="collapsible">WAP</button>
+<div class="content">
+  <p>Wireless Application Protocol; The Wireless Application Protocol (WAP) is a technological standard for accessing information via a mobile wireless network.</p>
+</div>
+<button class="collapsible">Servers</button>
+<div class="content">
+  <p>In computing, a server is a piece of computer hardware or software that offers functionality to other programs or devices known as "clients".</p>
+</div>
+ 	
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+</body>
+</html>
+
+
+

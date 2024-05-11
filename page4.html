@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Computer and Social Networking</title>
+
+<div class="logo">
+				<a href="Home.html">
+				<img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+				</a>
+				</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="StyleSheet.css">
+<script type="text/javascript" src="Javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+<h1>Computer and Social Networking</h1>	
+</div>
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Definitions 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Page1.html">Networking and Social Networks</a>
+      <a href="Page2.html">Hardware</a>
+      <a href="Page3.html">Transmission Media</a>
+      <a href="Page4.html">Topologies</a>
+      <a href="Page5.html">Data Processing & Transmission</a>
+      <a href="Page6.html">Network Security</a>
+    </div>
+  </div> 
+  <a href="#casestudy">Case Study</a>
+  <a href="#aboutus">About Us</a>
+  <a href="Timeline.html">Timeline</a>
+</div>
+
+
+<h2>
+
+</h2>
+
+<button class="collapsible">Topology</button>
+<div class="content">
+  <p>Topologies are often represented as a graph. Network topologies describe the arrangement of networks and the relative location of traffic flows.</p>
+</div>
+<button class="collapsible">LAN</button>
+<div class="content">
+  <p>A neighborhood is a PC network that interconnects PCs inside a restricted region, for example, a home, school, research center, college grounds or place of business.</p>
+</div>
+<button class="collapsible">WAN</button>
+<div class="content">
+  <p>A wide region network is a broadcast communications network that reaches out over a huge geographic region. Wide region networks are frequently settled with rented media transmission circuits.</p>
+</div>
+<button class="collapsible">Client-Server Model</button>
+<div class="content">
+  <p>The client-server model is a dispersed application structure that parcels errands or responsibilities between the suppliers of an asset or administration, called servers, and administration requesters, called clients.</p>
+</div>
+<button class="collapsible">Bus</button>
+<div class="content">
+  <p>A correspondence framework that moves information between parts inside a PC, or between PCs.</p>
+</div>
+<button class="collapsible">Ring</button>
+<div class="content">
+  <p>A sort of organization setup where gadgets are associated roundly, framing a shut circle</p>
+</div>
+<button class="collapsible">Star</button>
+<div class="content">
+  <p>A star network is a neighbourhood (LAN) geography in which all hubs - - PCs (laptops), workstations or different gadgets - - are straightforwardly associated with a typical focal PC that is frequently alluded to as a centre point.</p>
+</div>
+<button class="collapsible">Mesh</button>
+<div class="content">
+  <p>A remote framework comprising numerous PCs associated by an organization</p>
+</div>
+<button class="collapsible">Hybrid</button>
+<div class="content">
+  <p>A registering climate that joins an on-premises datacenter (likewise called a confidential cloud) with a public cloud, permitting information and applications to be divided among them.</p>
+</div>
+<button class="collapsible">Navigation Map</button>
+<div class="content">
+  <p>The activity of clients traveling through and collaborating with sites and applications</p>
+</div>
+ 	
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+</body>
+</html>
+
+
+

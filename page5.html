@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Computer and Social Networking</title>
+
+<div class="logo">
+				<a href="Home.html">
+				<img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+				</a>
+				</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="StyleSheet.css">
+<script type="text/javascript" src="Javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+<h1>Computer and Social Networking</h1>	
+</div>
+
+<div class="navbar">
+  <a href="Home.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Definitions 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Page1.html">Networking and Social Networks</a>
+      <a href="Page2.html">Hardware</a>
+      <a href="Page3.html">Transmission Media</a>
+      <a href="Page4.html">Topologies</a>
+      <a href="Page5.html">Data Processing & Transmission</a>
+      <a href="Page6.html">Network Security</a>
+    </div>
+  </div> 
+  <a href="#casestudy">Case Study</a>
+  <a href="#aboutus">About Us</a>
+  <a href="Timeline.html">Timeline</a>
+</div>
+
+
+<h2>
+
+</h2>
+
+<button class="collapsible">Communication Protocols</button>
+<div class="content">
+  <p>A communication protocol is a system of rules that allows 2 or more entities of a communications system to transmit information via any kind of variation of a physical quantity. The protocol defines the rules, syntax, semantics synchronisation of communication and possible error recovery methods. Protocols may be implemented by hardware, software, or a combination of both.</p>
+</div>
+<button class="collapsible">Handshaking</button>
+<div class="content">
+  <p>Handshaking is a sign between two gadgets or projects, used to, e.g., validate, coordinate.</p>
+</div>
+<button class="collapsible">TCP/IP</button>
+<div class="content">
+  <p>Internet Protocol address</p>
+</div>
+<button class="collapsible">DNS</button>
+<div class="content">
+  <p>Domain Name System</p>
+</div>
+<button class="collapsible">HTTP</button>
+<div class="content">
+  <p>Hypertext Transfer Protocol</p>
+</div>
+<button class="collapsible">HTML</button>
+<div class="content">
+  <p>Hypertext Transfer Protocol</p>
+</div>
+<button class="collapsible">Lossy Compression</button>
+<div class="content">
+  <p>Lossy compression reduces the size and facilitates handling, storing, and sending of a picture or other file by removing background information and approximating specific features.</p>
+</div>
+<button class="collapsible">Lossless Compression</button>
+<div class="content">
+  <p>A type of data compression known as lossless compression spares no information in the compressed data and permits an exact reconstruction of the original data.</p>
+</div>
+<button class="collapsible">IP Address</button>
+<div class="content">
+  <p>A numeric Label</p>
+</div>
+<button class="collapsible">MAC Address</button>
+<div class="content">
+  <p>Unique Addresses</p>
+</div>
+ 	
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+</body>
+</html>
+
+
+

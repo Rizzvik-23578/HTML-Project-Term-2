@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Computer and Social Networking</title>
+
+<div class="logo">
+				<a href="Home.html">
+				<img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+				</a>
+				</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="StyleSheet.css">
+<script type="text/javascript" src="Javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+<h1>Computer and Social Networking</h1>	
+</div>
+
+<nav>
+  <div class="navbar">
+      <div class="logo">
+          <a href="Home.html">
+
+              <img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+              </a>
+
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><a href="Home.html">Home</a>
+          </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Definitions
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="Page1.html">Networking and Social Networks</a>
+              <a href="Page2.html">Hardware</a>
+              <a href="Page3.html">Transmission Media</a>
+              <a href="Page4.html">Topologies</a>
+              <a href="Page5.html">Data Processing & Transmission</a>
+              <a href="Page6.html">Network Security</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="Timeline.html">Timeline</a>
+          </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="#aboutus">About Us</a>
+          </button>
+      </div>
+    </div>
+</nav>
+
+<h2>
+
+</h2>
+
+<button class="collapsible">ARPANET</button>
+<div class="content">
+  <p>Experimental computer network; The Advanced Research Projects Agency Network (ARPANET) was an experimental computer network that was the predecessor of the Internet.</p>
+</div>
+<button class="collapsible">Bandwidth</button>
+<div class="content">
+  <p>Network bandwidth is a measurement of a wired or wireless communication link's maximum ability to send data via a network connection in a given length of time.</p>
+</div>
+<button class="collapsible">Binary</button>
+<div class="content">
+  <p>Concerning, implementing, or identifying a number notation scheme with a base of 2 instead of 10.</p>
+</div>
+<button class="collapsible">Decimal</button>
+<div class="content">
+  <p>Associated with an arithmetic and number system based on the ten, tenth parts, and powers of 10.</p>
+</div>
+<button class="collapsible">Bits, Bytes, KiloBytes and Megabytes</button>
+<div class="content">
+  <p>A byte is considered a unit of memory size.</p>
+</div>
+<button class="collapsible">Cloud-based data storage</button>
+<div class="content">
+  <p>A method of computer data storage in which digital data is kept on servers in remote places. A third-party supplier maintains the servers and is in charge of hosting, administering, and safeguarding the data kept on their infrastructure.</p>
+</div>
+<button class="collapsible">Information</button>
+<div class="content">
+  <p>Compiled data and statistics for analysis or reference.	</p>
+</div>
+<button class="collapsible">data</button>
+<div class="content">
+  <p>Provided facts</p>
+</div>
+<button class="collapsible">Internet of Me (IoMe)</button>
+<div class="content">
+  <p>The Internet of Me (IoMe) is a vague term for technology that connects our thoughts and bodies to the Internet. It converts our biological and cognitive experiences into data streams that can be tracked, shared, and altered.</p>
+</div>
+<button class="collapsible">Internet of Things (IoT)</button>
+<div class="content">
+  <p>The Internet of Things (IoT) refers to smart gadgets and items that transmit and receive data over the Internet and communication infrastructure.</p>
+</div>
+<button class="collapsible">Social network</button>
+<div class="content">
+  <p>A structure that describes the interactions between people and/or organizations. Social networking services and technologies enable people with similar interests or personal relationships to communicate, share, and engage using a variety of media, including text, photos, and video.</p>
+</div>
+<button class="collapsible">Entity</button>
+<div class="content">
+  <p>An item with a distinct identity that persists despite changes in its attributes. .</p>
+</div>
+<button class="collapsible">Relationship</button>
+<div class="content">
+  <p>In the context of databases, a connection occurs when one of two relational database tables has a foreign key that references the primary key of the other. Relational databases use relationships to bind different data items together while separating and storing data in distinct tables.</p>
+</div>
+<button class="collapsible">Sociogram</button>
+<div class="content">
+  <p>It is a graph made of data</p>
+</div>
+<button class="collapsible">Cyber Security</button>
+<div class="content">
+  <p>The safeguarding of information technology components, such as hardware and software, data, and network services.</p>
+</div>
+<button class="collapsible">Digital Citizenship</button>
+<div class="content">
+  <p>Etiquette for using technology and maintaining an online presence</p>
+</div>
+<button class="collapsible">Digital Citizenship</button>
+<div class="content">
+  <p>A digital footprint is the trail of data you leave when you use the internet..</p>
+</div>
+ 	
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Computer and Social Networking</title>
+
+<div class="logo">
+				<a href="home.html">
+				<img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+				</a>
+				</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+<link rel="stylesheet" href="StyleSheet.css">
+<script type="text/javascript" src="Javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+<h1>Computer and Social Networking</h1>	
+</div>
+
+<nav>
+  <div class="navbar">
+      <div class="logo">
+          <a href="Home.html">
+
+              <img src="logo.png" alt="Logo" style="width:180px;height:60px;">
+              </a>
+
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><a href="Home.html">Home</a>
+          </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Definitions
+              <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+              <a href="Page1.html">Networking and Social Networks</a>
+              <a href="Page2.html">Hardware</a>
+              <a href="Page3.html">Transmission Media</a>
+              <a href="Page4.html">Topologies</a>
+              <a href="Page5.html">Data Processing & Transmission</a>
+              <a href="Page6.html">Network Security</a>
+          </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="Timeline.html">Timeline</a>
+          </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn"><a href="#aboutus">About Us</a>
+          </button>
+      </div>
+    </div>
+</nav>
+
+
+<h2>
+
+</h2>
+
+<button class="collapsible">Wired Transmission</button>
+<div class="content">
+  <p>Guided transmission media; Wired transmission or communication is a form of transmission media in which data is conveyed by a physical connection.</p>
+</div>
+<button class="collapsible">UTP/Ethernet Cable</button>
+<div class="content">
+  <p>Unshielded twisted pair; In a UTP cable, wires in a single circuit are twisted around each other to cancel out electromagnetic interference (EMI) from outside sources. Unshielded indicates that no extra shielding, such as meshes or aluminium foil, is employed, which increases bulk.</p>
+</div>
+<button class="collapsible">Copper Wire</button>
+<div class="content">
+  <p>A Single electrical conductor made of copper</p>
+</div>
+<button class="collapsible">Coaxial Cable</button>
+<div class="content">
+  <p>Coaxial cable, often known as coaxial cable, is an electrical cable made up of a core copper conductor surrounded by an insulating layer, over which a metal shield is braided.</p>
+</div>
+<button class="collapsible">Fibre Optic</button>
+<div class="content">
+  <p>Fibre optics, or fibre optics, is the technology of conveying information through light pulses through glass or plastic fibres.</p>
+</div>
+<button class="collapsible">Wireless Transmission</button>
+<div class="content">
+  <p>Remote correspondence is the exchange of data between at least two focuses without using an electrical conduit, optical fibre or another consistently directed mode for the exchange.</p>
+</div>
+<button class="collapsible">Wifi</button>
+<div class="content">
+  <p>Wi-Fi is a remote systems administration innovation that utilizations radio waves to give remote fast Web access.</p>
+</div>
+<button class="collapsible">Cellular network</button>
+<div class="content">
+  <p>A phone organization or versatile organization is a media communications network where the connection to and from end hubs is remote and the organization is conveyed over land regions called cells, each served by no less than one fixed-area handset.</p>
+</div>
+<button class="collapsible">Satellite</button>
+<div class="content">
+  <p>A satellite or fake satellite is an item, commonly a shuttle, set into space around a heavenly body.</p>
+</div>
+<button class="collapsible">Bluetooth</button>
+<div class="content">
+  <p>Bluetooth is a short-range remote innovation standard that is utilized for trading information among fixed and cell phones over brief distances and building individual region organizations..</p>
+</div>
+ 	
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+	
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+  
+  
+</body>
+</html>
